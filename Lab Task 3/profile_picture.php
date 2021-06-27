@@ -61,7 +61,7 @@ if(isset($_POST["submit"])) {
 <div class="make-it-center">
 <fieldset>
 <legend> <b> Profile Picture</b></legend>
-<img src="pp.jpg" alt="pp">
+<img src="Profile_picture.jpg" alt="Profile_picture">
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data">
 
   <input type="file" id="image_to_up" name="image_to_up"><br>
